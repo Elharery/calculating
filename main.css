@@ -1,0 +1,77 @@
+*{
+  border: none;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.parent{
+  background: #eee;
+  padding: 20px;
+  width: fit-content;
+  margin: 150px auto;
+  border-radius: 10px;
+}
+form{
+}
+label{
+  display: none;
+  padding: 5px;
+  background: #fff;
+  border-radius: 10px;
+  width: 172.91px;
+  /* display: flex; */
+  margin: 0 auto 10px;
+  align-items: center;
+  justify-content: center;
+}
+.opretors{
+  cursor: pointer;
+  display: block;
+  background-color: #fff;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.active{
+  background-color: #0075ff;
+  color: #FFF;
+}
+#btn{
+  background: #0075ff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    cursor: pointer;
+}
+input{
+  border-radius: 10px;
+  /* width: 30px; */
+  padding: 5px;
+  display: block;
+  margin: 10px;
+}
+.chooses{
+  display: flex;
+  justify-content: center;
+
+}
+.chooses button{
+  flex: 1;
+}
+
+.not{
+  pointer-events: none;
+  color: #eee;
+}
+
+#label{
+  font-size: 15px;
+}
